@@ -1,0 +1,354 @@
+#Statistics for Data Science
+
+Population: A population is the set of resources from where we can collect data
+
+Sample: A Sample is nothing but a subset of the population that is used for sampling of data and in inferential statistics to predict the outcome.
+
+Variable: A Variable can be a number, a characteristic, or a quantity that can be counted. It can also be called a data point.
+
+Probability Distribution: A probability distribution is a mathematical concept that primarily gives the probabilities of occurrence of different possible outcomes generally for an experiment conducted by statisticians.
+
+Statistical Parameter: Statistical or population parameter is a quantity that helps in indexing a family of probability distributions like the mean, median, or mode of a population.
+
+
+Descriptive Statistics -Descriptive statistics is a concept that allows us to analyze and summarize data and organize the same in the form of numbers graph, bar plots, histogram, pie chart, etc. Descriptive statistics is simply a process to describe our existing data. It transforms the raw observations into some meaningful data that can be further interpreted and used. Concepts like standard deviation, central tendency are widely used around the world when it comes to learning descriptive statistics.
+
+There are four different categories in Descriptive Statistics. They are,
+
+
+Measure of frequency
+
+Measure of dispersion
+
+Measure of central tendency
+
+Measure of position.
+
+
+
+Based on the number of times a particular data has occurred defines the measure of frequency. The Measure of dispersion can be defined based on the Range, Variance, Standard Deviation, etc., The mean, median, mode, Skewness of the respective data comes under the measure of central tendency. Finally, based on the percentile and quartile the position is measured.
+
+
+
+
+
+2. Inferential Statistics – Inferential statistics on the other hand is an important concept that deals with drawing conclusions based on small samples collected from the entire population. For example, during an election poll, people will often want to predict the exit poll results so they will conduct a survey in various parts of the state or country and record their opinion. Based on the information they have collected they tend to draw conclusions and make inferences to predict results for the entire population.
+
+
+
+Random Variables:
+
+
+In layman terms, a random variable is a numerical portrayal of the interferences under a statistical experiment. Moreover, a random variable that accounts only for a finite number or an infinite sequence is described as to be discrete, on the other hand, one that considers any value in some interval of a real number line is known as continuous.
+
+Probability Distribution:
+
+
+
+It is simply a statistical function that explains complete probable values and likelihoods that are accounted for by a random variable in a given range.
+
+
+
+Knowledge of probability distributions yield;
+
+
+
+It enables us to epitomize and decipher data through the implementation of some numbers.
+
+It assists in locating the outcomes of experiments in the specified context, i.e, it permits one to identify whether the outcomes are compatible with defined ideas or not.
+
+For a discrete random variable, a probability distribution is the classifying of the probabilities for its probable outcomes, or, a formula for finding the probabilities.
+
+
+
+Whereas, for a continuous random variable, a probability distribution can be indicated in terms of a formula that finds the probability of a variable that would prevail in a particular specified interval.
+
+
+
+
+
+The binomial probability can be expressed as;
+
+
+
+
+
+
+
+
+
+
+
+
+
+Where “x” is the success that will occur in “n” trials under a binomial experiment.
+
+The mean of a binomial distribution is calculated by multiplying the number of trials by the probability of successes, i.e, “(np)”, and the variance of the binomial distribution is “np (1 − p)”.
+
+
+
+When p = 0.5, the distribution is said to be symmetric about mean, when p > 0.5, the distribution is skewed to the left, and when p < 0.5, the distribution is skewed to the right.
+
+
+
+It incorporates the following properties;
+
+
+
+It involves a sequence of “n identical trials”.
+
+The trials are independent as the outcome of past events doesn’t decide or affect the outcome of the present event.
+
+Two outcomes are possible, “success or failure”, “win or lose” or “gain or lose” for each outcome.
+
+The probability of success on each trial, denoted by “p”, doesn’t alter from trial to trial.
+
+
+
+Poisson random variables are the number of successes that yield from the Poisson experiment and their corresponding probability is known as the Poisson distribution that can be expressed as;
+
+
+
+
+
+
+
+
+
+Where “X” is the Poisson random variable, “x” is the number of successes and the mean “µ” is the fundamental parameter in this distribution.
+
+
+
+Some features of Poisson distribution are following;
+
+
+
+One successful event would not affect the outcome of another successful event.
+
+Over a small interval, a probability of success must be equivalent to the probability of success around a larger interval.
+
+If the interval tends to be smaller then the probability of success approaches zero in an interval.
+
+Normal(or Gaussian) Distribution
+
+
+
+The probability density function for the normal distribution is defined as;
+
+
+
+
+
+
+
+
+
+
+
+Where the μ and σ represent the mean (the point of the center of the distribution) and the standard deviation (how to spread out the distribution is) of the population respectively.
+
+
+
+
+
+It has the following features:
+
+
+
+The mean, median, and mode of the distribution are co-existed.
+
+The distribution curve is bell-shaped and symmetrical across the line where “x=μ”.
+
+Exactly half of the values are situated at the left of the center and the other half at the right.
+
+Under the curve, the total area is “one”.
+
+Correlation is used to find the relationship or association between two or more variables. Correlation lies between values -1 to +1. The interpretation is that, if the correlation is +1 then it is strongly positively correlated, -1 then it is strongly negatively correlated and 0 implies no correlation exists. Correlation works in both the case of quantitative and qualitative data.
+
+
+
+Regression, this analysis is used when we need to find the dependencies of one variable on the other. The regression value lies between 0 and 1. If the regression value is 1 then it is a perfect fit and 0 then it is not a good fit. The predictive model can be done by using regression analysis. This also uses both quantitative and qualitative data. There are two types of regression analysis. Linear Regression and Multiple Linear Regression.
+
+
+
+
+
+In Linear Regression, it has one dependent variable and one independent variable. For example, if the price is low the sales will be high. In the case of the multiple linear regression model, it has one independent variable and several dependent variables. For example, the price of the house depends on the number of rooms in the house, area of each room, number of car parking, facilities, location, etc.,
+
+
+
+
+
+In the case of Survival analysis, if the data is concerning the time of occurrence of an event, then survival analysis can be applied. The event will have the outcome as 0 or 1. For example, the patient survival from a heart attack can be denoted the 0 or 1. 0 denotes the person not survived and 1 denotes he/she survived. This can be predicted having the variables such as age, smoker or non-smoker, urban or rural living person, having blood pressure or not. Based on all the factors considering the person surviving status can be estimated.
+
+
+
+Data is of two types, continuous data and discrete data. The continuous data cannot be counted and changes over time, e.g the intensity of light, the temperature of a room, etc. 
+
+
+
+The discrete data can be counted and has a certain number of values, e.g. the number of bulbs, the number of people in a group, etc.
+
+
+
+
+
+Various software programs are available to perform statistical data analysis. These software include Statistical Analysis System (SAS), Statistical Package for Social Science (SPSS), Stat soft and many more. 
+
+
+
+
+
+These tools allow extensive data-handling capabilities and several statistical analysis methods that could examine a small chunk to very comprehensive data statistics.
+
+
+
+"Pandas Profiling”, is a python package by which EDA (Exploratory Data Analysis) can be done with a single line of code. This package returns the report in the HTML file format that helps to analyze the data quickly.  For a dataset, it gives the following statistics: 
+
+
+
+Essentials: type, missing values, unique values,
+
+
+
+
+
+Quantile Statistics like min value, Q1, median, Q3, interquartile range,
+
+
+
+
+
+Descriptive Statistics like mean, median, mode, SD, etc,
+
+
+
+
+
+Most often values,
+
+
+
+
+
+Histogram, and
+
+
+
+
+
+Correlations that give highly correlated variables.
+
+
+
+
+
+The main demerit of pandas profiling is to generate reports for bigger datasets. As the data size increases the time to generate the report also increases. 
+
+
+
+
+
+It can be solved by generating reports for the respective number of rows like where the data frame is passed to be converted to report there with df you can give df.sample(n=1000). This will generate reports only for 1000 rows.
+
+
+
+pandas-profiling: https://github.com/ydataai/pandas-profiling
+
+
+
+A Hypothesis Test evaluates two mutually exclusive statements about a population to determine which statement is best supported by the sample data. Whenever we want to make claims about the distribution of data or whether one set of results are different from another set of results in applied machine learning, we must rely on statistical hypothesis tests.
+
+Terms
+
+
+
+A parameter is a summary description of a fixed characteristic or measure of the target population. A parameter denotes the true value that would be obtained if a census rather than a sample were undertaken
+
+
+
+
+
+Ex: Mean (μ), Variance (σ²), Standard Deviation (σ), Proportion (π)
+
+
+
+A Sampling Distribution is a probability distribution of a statistic obtained through a large number of samples drawn from a specific population.
+
+
+
+The standard error (SE) is very similar to the standard deviation. Both are measures of spread. The higher the number, the more spread out your data is. To put it simply, the two terms are essentially equal — but there is one important difference. While the standard error uses statistics (sample data) standard deviation use parameters (population data). In other words, the larger your sample size, the closer your sample mean is to the actual population mean.
+
+
+
+Null Hypothesis (H₀):
+
+
+
+A statement in which no difference or effect is expected. If the null hypothesis is not rejected, no changes will be made.
+
+
+
+Alternate Hypothesis (H₁):
+
+
+
+A statement that some difference or effect is expected. Accepting the alternative hypothesis will lead to changes in opinions or actions. It is the opposite of the null hypothesis.
+
+
+
+One-Tailed Test:
+
+
+
+A one-tailed test is a statistical hypothesis test in which the critical area of a distribution is one-sided so that it is either greater than or less than a certain value, but not both. If the sample being tested falls into the one-sided critical area, the alternative hypothesis will be accepted instead of the null hypothesis.
+
+
+
+Critical Region: The critical region is the region of values that corresponds to the rejection of the null hypothesis at some chosen probability level.
+
+
+
+Two-Tailed Test:
+
+
+
+A two-tailed test is a method in which the critical area of a distribution is two-sided and tests whether a sample is greater than or less than a certain range of values. If the sample being tested falls into either of the critical areas, the alternative hypothesis is accepted instead of the null hypothesis.
+
+
+
+Test Statistic:
+
+
+
+The test statistic measures how close the sample has come to the null hypothesis. Its observed value changes randomly from one random sample to a different sample. A test statistic contains information about the data that is relevant for deciding whether to reject the null hypothesis or not.
+
+
+
+
+
+Type-I error occurs when the sample results, lead to the rejection of the null hypothesis when it is in fact true. Type-I errors are equivalent to false positives.
+
+
+Type-I errors can be controlled. The value of alpha, which is related to the level of Significance that we selected has a direct bearing on Type-I errors.
+
+
+
+Type-II error occurs when based on the sample results, the null hypothesis is not rejected when it is in fact false. Type-II errors are equivalent to false negatives.
+
+
+
+P-Value:
+
+
+The p-value is used all over statistics, from t-tests to simple regression analysis to tree-based models almost in all the machine learning models. P-values evaluate how well the sample data support the devil’s advocate argument that the null hypothesis is true. It measures how compatible your data are with the null hypothesis. 
+
+
+A variable is said to be normally distributed or have a normal distribution if its distribution has the shape of a normal curve — a special bell-shaped curve. … The graph of a normal distribution is called the normal curve, which has all of the following properties: 1. The mean, median, and mode are equal.
+
+
+Standardized Normal Distribution —
+
+A standard normal distribution is a normal distribution with mean 0 and standard deviation 1
+
+
